@@ -1,5 +1,7 @@
 require 'rack'
 require 'rack/test'
+require 'rspec'
+
 
 def app
   Rack::Builder.parse_file('config.ru').first
